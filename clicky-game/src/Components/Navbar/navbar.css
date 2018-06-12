@@ -1,0 +1,41 @@
+.navbar1 {
+    background: darkblue;
+    color: yellow;
+    min-height: 70px;
+    position: sticky;
+    width: 100%;
+    -webkit-box-shadow: 0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22);
+    box-shadow: 0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22);
+    color: #fff;
+    font-size: calc(10px + 14 * (100vw - 320px)/ 800);
+    z-index: 99;
+    white-space: nowrap;
+    display: block;
+}
+
+.darkBlue {
+    background: darkblue;
+    text-shadow: 2px 2px 4px #000000;
+
+}
+.navbar1 li {
+    display: inline-block;
+    padding: 26px 0;
+    width: 33.3%;
+    text-align: center;
+
+}
+
+.header {
+    display: block;
+    background-image: url('./famguy.jpg');
+    background-size: 100%;
+    /* background-position-y: ; */
+    background-repeat: no-repeat;
+    color: #fff;
+    min-height: 550px;
+    padding: 180px 20px;
+    padding-bottom: 140px;
+    text-align: center;
+}
+

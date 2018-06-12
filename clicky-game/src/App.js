@@ -1,18 +1,28 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import Navbar from './Components/Navbar/navbar'
 import './App.css';
+import Container from './Components/Game-Container/contain'
+import choices from './choices.json'
+import Card from './Components/Card/card'
 
 class App extends Component {
+  state = {
+    choices
+  };
+
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <Navbar/>
+        <Container>
+        {this.state.choices.map(choice => (
+          <Card
+            image={choice.image}
+            key={choice.image}
+          />
+        ))}
+      </Container>
+
       </div>
     );
   }
