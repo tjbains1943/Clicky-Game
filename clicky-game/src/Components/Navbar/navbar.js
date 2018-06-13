@@ -1,17 +1,17 @@
 import React from "react";
 import './navbar.css'
 
-const NavTabs = () => (
+const NavTabs = (props) => (
     <div>
-    <nav class="navbar1">
-    <ul class="w-100 m-0">
+    <nav className="navbar1">
+    <ul className="w-100 m-0">
         <li>Clicky Game</li>
-        <li>Click an Image to Begin</li>
-        <li> Score: Top Score: </li>
+        <li>{props.score >= 1 ? "Welcome to the Jungle" : "Click an image to begin!"}</li>
+        <li> Score: {props.score} Top Score: {props.topScore} </li>
     </ul>
   </nav>
-  <header class="header">
-  <h2 class="darkBlue">Clicky Game! <br></br>Click on an image to earn points, but don't click on any image more than once!</h2>
+  <header className="header">
+  <h2 className="darkBlue">Clicky Game! <br></br>Click on an image to earn points, but don't click on any image more than once!</h2>
   </header>
 </div>
 );

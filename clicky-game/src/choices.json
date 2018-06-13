@@ -2,62 +2,74 @@
     {
       "id": 1,
       "name": "Stewie Griffin",
-      "image": "/images/stew2.png"
+      "image": "/images/stew2.png",
+      "clicks": 0
     },
     {
       "id": 2,
       "name": "Peter Griffin",
-      "image": "/images/peter.png"
+      "image": "/images/peter.png",
+      "clicks": 0
     },
     {
       "id": 3,
       "name": "Lois Griffin",
-      "image": "/images/lois.jpg"
+      "image": "/images/lois.jpg",
+      "clicks": 0
     },
     {
       "id": 4,
       "name": "Meg Griffin",
-      "image": "/images/meg2.png"
+      "image": "/images/meg2.png",
+      "clicks": 0
     },
     {
       "id": 5,
       "name": "Brian Griffin",
-      "image": "/images/brian.jpg"
+      "image": "/images/brian.jpg",
+      "clicks": 0
     },
     {
       "id": 6,
       "name": "Glenn Quagmire",
-      "image": "/images/quagmire.jpg"
+      "image": "/images/quagmire.jpg",
+      "clicks": 0
     },
     {
       "id": 7,
-      "name": "Bugs Bunny",
-      "image": "https://vignette2.wikia.nocookie.net/deathbattlefanon/images/2/2b/Bugs_Bunny.png/revision/latest?cb=20151206010607"
+      "name": "Chris Griffin",
+      "image": "/images/chris2.jpg",
+      "clicks": 0
     },
     {
       "id": 8,
-      "name": "Johnny Bravo",
-      "image": "http://vignette3.wikia.nocookie.net/p__/images/9/9a/Johnny_Bravo.png/revision/latest?cb=20131031233339&path-prefix=protagonist"
+      "name": "Joe",
+      "image": "/images/joe.jpg",
+      "clicks": 0
     },
     {
       "id": 9,
-      "name": "Tommy Pickles",
-      "image": "https://vignette4.wikia.nocookie.net/uncyclopedia/images/e/e4/Tommy_Pickles.png/revision/latest?cb=20110530102641"
+      "name": "Herbert",
+      "image": "/images/herbert.jpg",
+      "clicks": 0
     },
     {
       "id": 10,
-      "name": "Rocko",
-      "image": "http://vignette3.wikia.nocookie.net/rockosmodernlife/images/9/9e/Rockos-modern-life-4e582a8f06a41.png/revision/latest?cb=20130522173416"
+      "name": "Cleveland",
+      "image": "/images/cleveland.jpg",
+      "clicks": 0
     },
     {
       "id": 11,
-      "name": "Captain Planet",
-      "image": "http://vignette2.wikia.nocookie.net/dragon-rap-battles/images/b/b6/Captain_Planet.png/revision/latest?cb=20160911200836"
+      "name": "Carter",
+      "image": "/images/carter.jpg",
+      "clicks": 0
     },
     {
       "id": 12,
-      "name": "Ickis",
-      "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png"
+      "name": "Ernie",
+      "image": "/images/ernie.jpg",
+      "clicks": 0
     }
   ]
   
