@@ -6,7 +6,7 @@ const NavTabs = (props) => (
     <nav className="navbar1">
     <ul className="w-100 m-0">
         <li>Clicky Game</li>
-        <li>{props.score >= 1 ? "Welcome to the Jungle" : "Click an image to begin!"}</li>
+        <li>{props.score >= 1 ? "Welcome!" : "Click an image to begin!"}</li>
         <li> Score: {props.score} Top Score: {props.topScore} </li>
     </ul>
   </nav>
