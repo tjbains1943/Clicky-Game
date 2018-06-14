@@ -29,12 +29,14 @@ clickCount(e) {
       this.setState({score: 0})
       this.setState({error: true})
     }
+
     else {
       this.setState({score: this.state.score + 1})
       this.setState({error: false})
       if (this.state.score === 11) {
         this.setState({win: true})
       }
+
     }
 }
 
@@ -55,7 +57,7 @@ resetValues() {
         <Navbar score={this.state.score} topScore={this.state.topScore}/>
         <Container
         error = {this.state.error}
-        win = {this.state.win}>
+        score = {this.state.score}>
         
         {this.state.choices.map(choice => (
           <Card
